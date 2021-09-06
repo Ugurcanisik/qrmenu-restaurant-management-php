@@ -1,0 +1,106 @@
+@keyframes blinker {  
+	50% { opacity: 0; }
+}
+
+
+.totop a {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	cursor: pointer;
+}
+
+
+body{
+	margin:5px;
+	background-color: #f2f2f2;
+}
+
+.restaurant{
+	width: 50%;
+	float: left;
+	padding: 15px;
+	position: relative;
+
+}
+
+.title{
+	float: left;
+	font-family: Montserrat,arial;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #FFB03B;
+}
+
+.price{
+	font-weight: 600;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.subtitle{
+	display: block;
+	float: left;
+	color: #B1B1B1;
+	font-family: Satisfy,'Open Sans',arial;
+	font-size: 1.2rem;
+}
+
+.ktgoriler{
+	font-family: 'Trispace', sans-serif; 
+	font-size:20px; 
+	border-radius: 50px; 
+	background-color: #3a1200;
+	color: white;
+}
+
+.ktbaslik{
+	font-size: 20px; 
+	color: black;
+	font-family: 'Trispace', sans-serif;
+}
+
+
+.menufont{
+	font-family: 'Trispace', sans-serif;
+	color: #3a1200;
+}
+
+.urunad{
+	font-family: 'Trispace', sans-serif;
+	width: 300px; 
+	font-size: 20px;
+	color: black;
+}
+
+.urunfiyat{
+	font-family: 'Trispace', sans-serif;
+	margin-right: 5px;
+	margin-left: 50px; 
+	margin-top: 15px; 
+	font-size: 20px; 
+	color: black;
+}
+
+.urundetay{
+	font-family: 'Trispace', sans-serif;
+	width: 90%; 
+	font-size: 15px;
+}
+
+
+
+
+<!--
+a.gflag {vertical-align:middle;font-size:32px;padding:1px 0;background-repeat:no-repeat;background-image:url(//gtranslate.net/flags/32.png);}
+a.gflag img {border:0;}
+a.gflag:hover {background-image:url(//gtranslate.net/flags/32a.png);}
+#goog-gt-tt {display:none !important;}
+.goog-te-banner-frame {display:none !important;}
+.goog-te-menu-value:hover {text-decoration:none !important;}
+body {top:0 !important;}
+#google_translate_element2 {display:none!important;}
+-->

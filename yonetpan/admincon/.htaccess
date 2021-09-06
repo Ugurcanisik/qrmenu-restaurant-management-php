@@ -1,0 +1,27 @@
+RewriteEngine on
+ 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+RewriteRule ^header/? index.php [NC,L]
+RewriteRule ^footer/? index.php [NC,L]
+RewriteRule ^undefined/? slider.php [NC,L]
+RewriteRule ^highslide.com/? slider.php [NC,L]
+
+#RewriteRule ^kullanici_guncelle/([0-9]+)$ kullanici_guncelle.php?id=$1 [L,QSA]
+
+#RewriteRule ^slider/([0-9]+)$ slider.php?sayfa=$1 [L,QSA]
+
+
+
+
+
+
+#ErrorDocument 404 http://localhost/proje/edmin/admin
+
+
+
+
+
+
